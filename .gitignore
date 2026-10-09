@@ -1,0 +1,55 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and downloads (MNE sample data, MNIST, etc.)
+mne_data/
+MNE-sample-data/
+data/
+datasets/
+*.fif
+*.fif.gz
+*.edf
+*.bdf
+*.set
+
+# Model checkpoints and training outputs
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+runs/
+wandb/
+lightning_logs/
+tensorboard/
+logs/
+
+# Secrets
+*.pem
+*.key
+.env.*
+
+# IDEs
+.vscode/
+.idea/
